@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+  
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#header" class="logo">Portfolio</a>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, It's <span>Harini</span></h1>
+          <p>I'm a <span>Web Developer</span></p>
+          <p id="about">
+            Highly motivated engineering student. Passionate about leveraging
+            technical expertise to creatively contribute to organizational
+            success. Eager to learn and grow by embracing new challenges and
+            continuously enhancing skills in software development.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="education" id="education">
+      <h2 class="education-heading">Education</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 - Present</div>
+          <div class="timeline-content">
+            <h3>Bachelor of Engineering</h3>
+            <p>Velammal Engineering College</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022</div>
+          <div class="timeline-content">
+            <h3>12th - HSC</h3>
+            <p>St. Columban’s A.I.Hr.Sec.School</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content">
+            <h3>10th - SSLC</h3>
+            <p>St. Columban’s A.I.Hr.Sec.School</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="skills-title" id="skills"><span>My Skills</span></h1>
+
+    <section class="skills-section">
+      <div class="container1">
+        <h1 class="tech-skills">Technical skills</h1>
+        <div class="technical-bar">
+          <div class="bar">
+            <i class="fa-brands fa-java" style="color: #147ac8"></i>
+            <div class="info"><span>Java</span></div>
+            <div class="progress-line java"><span></span></div>
+          </div>
+
+          <div class="bar">
+            <i class="fa-solid fa-database" style="color: #469dd2"></i>
+            <div class="info"><span>SQL</span></div>
+            <div class="progress-line sql"><span></span></div>
+          </div>
+
+          <div class="bar">
+            <i class="fa-brands fa-js" style="color: #ffd43b"></i>
+            <div class="info"><span>JavaScript</span></div>
+            <div class="progress-line javascript"><span></span></div>
+          </div>
+
+          <div class="bar">
+            <i class="fa-brands fa-html5" style="color: #e43e07"></i>
+            <div class="info"><span>HTML</span></div>
+            <div class="progress-line html"><span></span></div>
+          </div>
+
+          <div class="bar">
+            <i class="fa-brands fa-css3-alt" style="color: #1651b6"></i>
+            <div class="info"><span>CSS</span></div>
+            <div class="progress-line css"><span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container2">
+        <h1 class="Professional-skills-heading">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Time Management</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">95%</div>
+            <div class="text">Teamwork</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="projects">
+        <div class="project-container">
+          <h1 class="project-heading">Projects</h1>
+          <div class="project-list">
+            
+            <div class="work">
+              <img src="images/RoamSphere Project.png" />
+              <div class="layer">
+                <h3>RoamSphere</h3>
+                <p>
+                  A travel guide website. Helps you pick the location you wanna
+                  explore.
+                </p>
+                <a href="https://harini-ilamaran.github.io/RoamSphere-Travel-Guide-Website/"
+                  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/Bookly Project.png" />
+              <div class="layer">
+                <h3>Book Review Website</h3>
+                <p>
+                  The website connects you with fellow readers who leave
+                  reviews which will help get a better understanding of the book
+                  you wanna read.
+                </p>
+                <a href="https://harini-ilamaran.github.io/Bookly-Book-Listing-Website/"
+                  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div class="contact-container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="contact-heading">Contact Me</h1>
+              <p>
+                <i class="fa-solid fa-paper-plane"></i>
+                harini.ilamarann@gmail.com
+              </p>
+              <p><i class="fa-solid fa-square-phone"></i> +91 9150249935</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hariniilamaran/"
+                  target="_blank"><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/Harini-Ilamaran"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <a href="Resume/Harini I Resume.pdf" download class="btn btn2"
+                >Download Resume</a
+              >
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
