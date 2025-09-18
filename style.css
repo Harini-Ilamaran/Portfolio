@@ -97,13 +97,14 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    margin-bottom: 2px;
 }
 .header-text h1 span{
     color: #74bdc9;
 }
 .header-text p span{
     color: #74bdc9;
-    font-weight: 500;
+    font-weight: 600;
 }
 #about{
     font-size: 18px;
@@ -192,7 +193,7 @@ nav ul li a:hover::after{
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .timeline-content p{
     color: white;
@@ -724,33 +725,32 @@ nav .fa-solid{
   }
   .header-text{
     margin-top: 120px;
-    font-size: 16px;
     padding-bottom: 40px;
   }
-  .header-text h1{
+  /* .header-text h1{
     font-size: 30px;
-  }
+  } */
   #about {
     max-width: 100%;
     font-size: 16px;
   }
-  .education-heading,.skills-title,.project-heading,.contact-heading{
-    font-size: 24px;
+  .education-heading,.skills-title,.project-heading,.contact-heading,.header-text h1{
+    font-size: 30px;
   }
-  .tech-skills,.Professional-skills-heading,.header-text h1{
+  .tech-skills,.Professional-skills-heading{
     font-size: 24px;
   }
   .header-text p{
     font-size: 20px;
   }
   .timeline-date{
-    font-size: 16px;
+    font-size: 20px;
   }
   .timeline-content h3{
-    font-size: 15px;
+    font-size: 16px;
   }
   .timeline-content p, #about, .text,.contact-left p, .btn, form .btn, form input, form textarea{
-    font-size: 14.4px;
+    font-size: 16px;
   }
   .skills-title{
     padding-bottom: 10px;
@@ -759,7 +759,7 @@ nav .fa-solid{
     margin-top: 50px;
   }
   .logo{
-    font-size: 26px;
+    font-size: 34px;
   }
   .container2{
     width: 85%;
