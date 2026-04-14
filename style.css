@@ -676,6 +676,22 @@ nav ul li a:hover::after{
     margin-right: 15px;
     font-size: 25px;
 }
+.contact-left a{
+    color: #222;
+    text-decoration: none;
+}
+section{
+    scroll-margin-top: 80px;  
+}
+#projects{
+    scroll-margin-top: 80px;
+}
+#contact{
+    scroll-margin-top: 80px;
+}
+.contact-left a:hover{
+    color: #facc15;
+}
 .social-icons{
     margin-top: 30px;
 }
