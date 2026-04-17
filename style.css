@@ -719,13 +719,15 @@ section{
     transition: background 0.5s;
 }
 
-.btn:hover{
+.btn:hover,
+.btn.btn2:hover{
     background-color: #facc15;
     color: #000;
 }
 .btn .btn2{
     display: inline-block;
     background: #facc15;
+    color: #222;
 }
 .contact-right form{
     width: 100%;
