@@ -12,22 +12,24 @@ const form = document.forms['submit-to-google-sheet'];
 const msg = document.getElementById("msg");
 
 form.addEventListener('submit', e => {
-  e.preventDefault();
+    e.preventDefault();
 
-  fetch(scriptURL, {
-    method: 'POST',
-    body: new FormData(form)
-  })
-  .then(response => {
-    msg.innerHTML = "Message sent successfully!";
-    form.reset();
+    msg.innerHTML = "Sending message...";
 
-    setTimeout(() => {
-      msg.innerHTML = "";
-    }, 1000);
-  })
-  .catch(error => {
-    msg.innerHTML = "Failed to send message!";
-  });
+    fetch(scriptURL, {
+        method: 'POST',
+        body: new FormData(form)
+    })
+    .then(response => {
+        msg.innerHTML = "Message sent successfully!";
+        form.reset();
+
+        setTimeout(() => {
+            msg.innerHTML = "";
+        }, 2500);
+    })
+    .catch(error => {
+        msg.innerHTML = "Failed to send message!";
+    });
 });
   
